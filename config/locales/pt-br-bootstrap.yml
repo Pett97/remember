@@ -1,0 +1,15 @@
+pt-BR:
+  activerecord:
+    models:
+      friend:
+        one: "Amigo"
+        other: "Amigos"
+  friends:
+    title: "Amigos"
+    new: "Novo(a) %{model}"
+    save: "Salvar %{model}"
+    edit: "Editar %{model}"
+    delete: "Apagar %{model}"
+    show: "Mostrar este amigo"
+    index: "Lista de Amigos"
+    notice: "%{message}"
