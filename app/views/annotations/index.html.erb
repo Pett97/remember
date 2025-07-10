@@ -8,9 +8,9 @@
   <% @annotations.each do |annotation| %>
     <%= render annotation %>
     <p>
-      <%= link_to "Show this annotation", annotation %>
+      <%= link_to t('annotations.show',model: t('activerecord.models.annotation.one')), annotation %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New annotation", new_annotation_path %>
+<%= link_to t('annotations.new',model: t('activerecord.models.annotation.one')), new_annotation_path %>

@@ -4,6 +4,9 @@ pt-BR:
       friend:
         one: "Amigo"
         other: "Amigos"
+      annotation:
+        one: "Anotação"
+        other: "Anotações"  
   friends:
     title: "Amigos"
     new: "Novo(a) %{model}"
@@ -13,3 +16,13 @@ pt-BR:
     show: "Mostrar este amigo"
     index: "Lista de Amigos"
     notice: "%{message}"
+  annotations:
+    title: "Anotações"
+    new: "Nova %{model}"
+    save: "Salvar %{model}"
+    edit: "Editar %{model}"
+    delete: "Apagar %{model}"
+    show: "Mostrar esta anotação"
+    index: "Lista de Anotações"
+    notice: "%{message}"
+    back: "Voltar"

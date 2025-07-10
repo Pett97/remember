@@ -7,6 +7,6 @@
 <br>
 
 <div>
-  <%= link_to "Show this annotation", @annotation %> |
-  <%= link_to "Back to annotations", annotations_path %>
+  <%= link_to t('annotations.show',model: t('activerecord.models.annotation.one')), @annotation %> |
+  <%= link_to link_to t('annotations.back',model: t('activerecord.models.annotation.other')), annotations_path %>
 </div>
