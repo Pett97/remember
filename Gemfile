@@ -5,7 +5,7 @@ gem "cssbundling-rails"
 gem "jsbundling-rails"
 
 # will_paginate
-gem 'will_paginate', '~> 3.1'
+gem 'will_paginate', '~> 4.0'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.2"
